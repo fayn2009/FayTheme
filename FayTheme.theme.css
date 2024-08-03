@@ -4,13 +4,13 @@
  * @version 3.0.0
  * @description Perfect ^ω^
  * @authorId 823807405158039552
- * @source https://github.com/fayn2009/BetterDS-theme
+ * @source https://github.com/fayn2009/FayTheme
  * @website https://fayn2009.github.io
 */
 
-@import url('https://raw.githubusercontent.com/fayn2009/BetterDS-theme/main/fay.theme.css');
+@import url('https://raw.githubusercontent.com/fayn2009/FayTheme/main/fay.theme.css');
 
 /* Background image */
 :root {
-  --background-image: url(https://raw.githubusercontent.com/fayn2009/BetterDS-theme/main/bg-image.jpg);
+  --background-image: url(https://raw.githubusercontent.com/fayn2009/FayTheme/main/bg-image.jpg);
 }

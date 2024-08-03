@@ -1,6 +1,6 @@
 /* Background image */
 :root {
-  --background-image: url(https://raw.githubusercontent.com/fayn2009/BetterDS-theme/main/bg-image.jpg);
+  --background-image: url(https://raw.githubusercontent.com/fayn2009/FayTheme/main/bg-image.jpg);
 }
 .bg_d4b6c5 {
   background-image: var(--background-image);

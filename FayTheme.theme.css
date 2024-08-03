@@ -16,12 +16,12 @@
 
 
 /* Set background image */
-.bg_d4b6c5 {
+.bg_d4b6c5, .app_a01fb1 {
   background-image: var(--background-image);
 }
 
 /* Transparent backgrounds */
-body, .wrapper_fea3ef, .content_eed6a8, .content_a7d72e, .chatContent_a7d72e, .container_c2739c, .container_bf550a, .nowPlayingColumn_c2739c, .panels_a4d4d9, .content_eed6a8, .scroller_c47fa9, .bg_d4b6c5, .app_a01fb1, .appMount_ea7e65, .layer_d4b6c5.baseLayer_d4b6c5, .themed_fc4f04 {
+body, .wrapper_fea3ef, .content_eed6a8, .content_a7d72e, .chatContent_a7d72e, .container_c2739c, .container_bf550a, .nowPlayingColumn_c2739c, .panels_a4d4d9, .content_eed6a8, .scroller_c47fa9, .bg_d4b6c5, .appMount_ea7e65, .layer_d4b6c5.baseLayer_d4b6c5, .themed_fc4f04 {
   background: transparent;
   background-color: transparent;
 }

@@ -1,0 +1,61 @@
+/**
+ * @name FayTheme
+ * @author pe_rson
+ * @version 3.0.0
+ * @description Perfect ^ω^
+ * @authorId 823807405158039552
+*/
+
+/* Background image */
+:root {
+  --background-image: url(https://steamcdn-a.akamaihd.net/steamcommunity/public/images/items/746850/6e151979190ba7480d2f27503fefe64127f4d31d.jpg);
+}
+.bg_d4b6c5 {
+  background-image: var(--background-image);
+}
+
+/* Transparent backgrounds */
+body, .wrapper_fea3ef, .content_eed6a8, .content_a7d72e, .chatContent_a7d72e, .container_c2739c, .container_bf550a, .nowPlayingColumn_c2739c, .panels_a4d4d9, .content_eed6a8, .scroller_c47fa9, .bg_d4b6c5, .app_a01fb1, .appMount_ea7e65, .layer_d4b6c5.baseLayer_d4b6c5, .themed_fc4f04 {
+  background: transparent;
+  background-color: transparent;
+}
+
+/* Highlight some frames */
+.sidebar_a4d4d9 {
+  background: #0004;
+}
+.container_b2ca13 {
+  background: #0007;
+}
+.container_c2739c, .chat_a7d72e {
+  background: #000a;
+}
+
+/* Make animations */
+.peopleListItem_d51464 {
+  transition: all 0.06s;
+  border: none;
+}
+.itemCard_f02fcf {
+  border-width: 0;
+  border-style: dashed;
+  transition: all 0.2s;
+}
+.itemCard_f02fcf:hover {
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  border-color: #39c06d;
+}
+.interactive_f5eb4b.interactive_c91bad, .memberInner_a31c43, .iconVisibility_f6f816.wrapper_d8bfb3.typeDefault_d8bfb3 {
+  border-style: solid;
+  border-color: #fff;
+  border-width: 0;
+  transition: 0.08s;
+}
+.interactive_f5eb4b.interactive_c91bad:hover, .memberInner_a31c43:hover {
+  border-width: 0 2px 0 2px;
+}
+.iconVisibility_f6f816.wrapper_d8bfb3.typeDefault_d8bfb3:hover {
+  border-radius: 5px;
+  border-width: 0 0 2px 0;
+}

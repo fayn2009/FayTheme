@@ -1,7 +1,7 @@
 /**
  * @name FayTheme
  * @author pe_rson
- * @version 3.1.809
+ * @version 3.2.809
  * @description Perfect ^ω^
  * @authorId 823807405158039552
  * @source https://github.com/fayn2009/FayTheme
@@ -16,25 +16,36 @@
 
 
 /* Set background image */
-.bg_d4b6c5, .app_bd26cc {
+.bg_d4b6c5 {
   background-image: var(--background-image);
 }
 
 /* Transparent backgrounds */
-body, .wrapper_fea3ef, .app_a01fb1, .content_eed6a8, .content_a7d72e, .chatContent_a7d72e, .container_c2739c, .container_bf550a, .nowPlayingColumn_c2739c, .panels_a4d4d9, .content_eed6a8, .scroller_c47fa9, .bg_d4b6c5, .appMount_ea7e65, .layer_d4b6c5.baseLayer_d4b6c5, .themed_fc4f04 {
-  background: transparent;
-  background-color: transparent;
+body, .shopScroll_e77fa3, .content_eed6a8, .fade_c49869, .pageWrapper_e77fa3, .privateChannels_f0963d, .contentRegion_c25c6d, .sidebarRegion_c25c6d, .layer_d4b6c5, .canvas_a41a9d, .layerContainer_cd0de5, .layers_d4b6c5, .layers_a01fb1, .app_bd26cc, .appAsidePanelWrapper_bd26cc, .notAppAsidePanel_bd26cc, .wrapper_fea3ef, .app_a01fb1, .content_eed6a8, .content_a7d72e, .chatContent_a7d72e, .container_c2739c, .container_bf550a, .nowPlayingColumn_c2739c, .panels_a4d4d9, .content_eed6a8, .scroller_c47fa9, .appMount_ea7e65, .layer_d4b6c5.baseLayer_d4b6c5, .bar_a4d4d9, .content_a4d4d9 {
+  background: none;
+}
+.scroller_c47fa9, .container_ee69e0 {
+  --background-secondary: none;
+}
+.theme-dark, .themed_fc4f0 {
+  --background-primary: none;
 }
 
 /* Highlight some frames */
-.sidebar_a4d4d9 {
-  background: #0004;
-}
-.container_b2ca13 {
+.container_b2ca13, .standardSidebarView_c25c6d, .shop_e77fa3, .container_c2739c, .sidebar_a4d4d9, .chat_a7d72e {
   background: #0007;
 }
-.container_c2739c, .chat_a7d72e {
-  background: #000a;
+
+/* Borders */
+.container_b2ca13 {
+  border-radius: 20px;
+  transform: translateY(-10px);
+}
+.avatarWrapper_b2ca13:hover {
+  border-radius: 12px;
+}
+button.button_adca65 {
+  border-radius: 100%;
 }
 
 /* Make animations */

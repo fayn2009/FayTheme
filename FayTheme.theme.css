@@ -1,7 +1,7 @@
 /**
  * @name FayTheme
  * @author pe_rson
- * @version 3.4.811
+ * @version 3.5.811
  * @description Perfect ^ω^
  * @authorId 823807405158039552
  * @source https://github.com/fayn2009/FayTheme
@@ -21,7 +21,7 @@
 }
 
 /* Transparent backgrounds */
-body, .contentRegionScroller_c25c6d, .shopScroll_e77fa3, .content_eed6a8, .fade_c49869, .pageWrapper_e77fa3, .privateChannels_f0963d, .contentRegion_c25c6d, .sidebarRegion_c25c6d, .layer_d4b6c5, .canvas_a41a9d, .layerContainer_cd0de5, .layers_d4b6c5, .layers_a01fb1, .app_bd26cc, .appAsidePanelWrapper_bd26cc, .notAppAsidePanel_bd26cc, .wrapper_fea3ef, .app_a01fb1, .content_eed6a8, .content_a7d72e, .chatContent_a7d72e, .container_c2739c, .container_bf550a, .nowPlayingColumn_c2739c, .panels_a4d4d9, .content_eed6a8, .scroller_c47fa9, .appMount_ea7e65, .layer_d4b6c5.baseLayer_d4b6c5, .bar_a4d4d9, .content_a4d4d9 {
+body, .toggleMute_ba4b17.interactive_ba4b17:hover, .contentRegionScroller_c25c6d, .shopScroll_e77fa3, .content_eed6a8, .fade_c49869, .pageWrapper_e77fa3, .privateChannels_f0963d, .contentRegion_c25c6d, .sidebarRegion_c25c6d, .layer_d4b6c5, .canvas_a41a9d, .layerContainer_cd0de5, .layers_d4b6c5, .layers_a01fb1, .app_bd26cc, .appAsidePanelWrapper_bd26cc, .notAppAsidePanel_bd26cc, .wrapper_fea3ef, .app_a01fb1, .content_eed6a8, .content_a7d72e, .chatContent_a7d72e, .container_c2739c, .container_bf550a, .nowPlayingColumn_c2739c, .panels_a4d4d9, .content_eed6a8, .scroller_c47fa9, .appMount_ea7e65, .layer_d4b6c5.baseLayer_d4b6c5, .bar_a4d4d9, .content_a4d4d9 {
   background: none;
 }
 .withBackgroundOverride_a934d8, .scroller_fea3ef {
@@ -52,6 +52,9 @@ body, .contentRegionScroller_c25c6d, .shopScroll_e77fa3, .content_eed6a8, .fade_
 .container_adcaac {
   border-radius: 20px;
   transform: translateY(-16px);
+}
+.button_dd4f85 {
+  border-radius: 28px;
 }
 .avatarWrapper_b2ca13:hover {
   border-radius: 12px;

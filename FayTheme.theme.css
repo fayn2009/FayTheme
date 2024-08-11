@@ -1,7 +1,7 @@
 /**
  * @name FayTheme
  * @author pe_rson
- * @version 3.3.810
+ * @version 3.4.811
  * @description Perfect ^ω^
  * @authorId 823807405158039552
  * @source https://github.com/fayn2009/FayTheme
@@ -48,6 +48,10 @@ body, .contentRegionScroller_c25c6d, .shopScroll_e77fa3, .content_eed6a8, .fade_
 .container_b2ca13 {
   border-radius: 20px;
   transform: translateY(-10px);
+}
+.container_adcaac {
+  border-radius: 20px;
+  transform: translateY(-16px);
 }
 .avatarWrapper_b2ca13:hover {
   border-radius: 12px;

@@ -34,6 +34,10 @@ body, .contentRegionScroller_c25c6d, .shopScroll_e77fa3, .content_eed6a8, .fade_
 .theme-dark, .themed_fc4f0 {
   --background-primary: none;
 }
+.theme-dark .message_d5deea.selected_d5deea, .theme-dark.mouse-mode.full-motion .message_d5deea:hover {
+  --bg-overlay-2: none;
+  --bg-overlay-1: #0002;
+}
 
 /* Highlight some frames */
 .container_b2ca13, .standardSidebarView_c25c6d, .shop_e77fa3, .container_c2739c, .sidebar_a4d4d9, .chat_a7d72e {

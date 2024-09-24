@@ -1,7 +1,7 @@
 /**
  * @name FayTheme
  * @author pe_rson
- * @version 3.6.915
+ * @version 3.7.924
  * @description Perfect ^ω^
  * @authorId 823807405158039552
  * @source https://github.com/fayn2009/FayTheme
@@ -53,13 +53,26 @@ body, .popout_a35965, #popout_64, .member_a31c43, .membersWrap_cbd271, .scroller
 }
 
 /* Borders */
+.input_f4e139 {
+  border-radius: 100vh;
+}
+.horizontal_dc333f {
+  transform: translateX(-5px);
+}
+.panel_bf1a22 {
+  border-radius: 20px;
+  transform: translateY(-22px) translateX(1%);
+  width: 91%;
+}
 .container_b2ca13 {
   border-radius: 20px;
-  transform: translateY(-10px);
+  transform: translateY(-10px) translateX(1%);
+  width: 91%;
 }
 .container_adcaac {
   border-radius: 20px;
-  transform: translateY(-16px);
+  transform: translateY(-16px) translateX(1%);
+  width: 91%;
 }
 .button_dd4f85 {
   border-radius: 28px;
@@ -72,6 +85,16 @@ button.button_adca65 {
 }
 
 /* Make animations */
+.name_e3c1c6 {
+  transition: transform 0.2s;
+}
+.result_e3c1c6 {
+  transition: background 0.2s;
+  border-radius: 100vh;
+}
+.result_e3c1c6:hover .name_e3c1c6 {
+  transform: scale(1.2) translateX(40px);
+}
 .peopleListItem_d51464 {
   transition: all 0.06s;
   border: none;
@@ -115,9 +138,19 @@ button.button_adca65 {
   animation: opencdde 0.2s ease-in-out;
 }
 
+.submenuPaddingContainer_d90b3d {
+  animation: opensubmenu 0.18s ease-in-out;
+  
+}
+
 @keyframes openmembers {
   0% {min-width: 0; max-width: 0;}
   100% {min-width: 240px; max-width: 240px;}
+}
+
+@keyframes opensubmenu {
+  0% {opacity: 0;}
+  100% {opacity: 100%;}
 }
 
 @keyframes opencdde {

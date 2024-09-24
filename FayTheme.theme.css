@@ -1,7 +1,7 @@
 /**
  * @name FayTheme
  * @author pe_rson
- * @version 3.7.924
+ * @version 3.8.924
  * @description Perfect ^ω^
  * @authorId 823807405158039552
  * @source https://github.com/fayn2009/FayTheme
@@ -113,14 +113,22 @@ button.button_adca65 {
   border-style: solid;
   border-color: #fff;
   border-width: 0;
-  transition: 0.08s;
+  transition: all 0.08s;
 }
 .interactive_f5eb4b.interactive_c91bad:hover, .memberInner_a31c43:hover {
   border-width: 0 2px 0 2px;
 }
+.iconVisibility_f6f816.wrapper_d8bfb3.typeDefault_d8bfb3 {
+  width: calc(96% + 1px);
+}
 .iconVisibility_f6f816.wrapper_d8bfb3.typeDefault_d8bfb3:hover {
   border-radius: 5px;
   border-width: 0 0 2px 0;
+  width: calc(96% - 19px);
+  transform: translateX(10px);
+}
+.linkTop_d8bfb3 {
+  width: 100%;
 }
 
     /***********************/
